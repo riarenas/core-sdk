@@ -283,7 +283,7 @@ stages:
       - NetCore_Dev5_Publish
       - NetCore_Release30_Publish
       - NetCore_Release31_Publish
-      - PVR_Publish
+      - General_Testing_Publish
     jobs:
     - job: Copy_SDK_To_Latest
       pool:
